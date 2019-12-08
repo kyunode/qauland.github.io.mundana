@@ -1,12 +1,12 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: "Qauland's Sandbox"
+description: 'Bukan sebuah kotak pasir yang indah.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+baseurl: ''
+disqus: ''
+email: 'qauland@vivaldi.net'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
@@ -21,20 +21,31 @@ plugins:
 authors:
     sal:
       name:           Sal
+      nickname:       sal
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
+      avatar:         assets/images/avatar1.jpg
       bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
+    qauland:
+      name:           Qauland
+      nickname:       qauland
+      site:           https://qauland.github.io
+      avatar:         assets/images/avatar3.jpg
+      bio:            "Pemilik situs ini. Sedang menjalani kehidupan sehari-harinya sebagai seorang mahasiswa."
+      email:          ktbstsn@outlook.co.id
+      twitter:        https://twitter.com/qauland
+
+    hyropk:
+      name:           Hiro Pakapuka
+      nickname:       hyropk
+      avatar:         assets/images/avatar2.jpg
+      bio:            "Alternating... Zzz"
+      email:          hiropakapuka@yahoo.co.id
+      facebook:       https://fb.me/hyropk
+      instagram:      https://instagram.com/8ch.pi
+
 # Defaults
 defaults:
 
@@ -43,8 +54,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: qauland
+      avatar: assets/images/avatar3.jpg
       
   # all pages
   - scope:
@@ -54,7 +65,6 @@ defaults:
       
 # Syntax
 markdown: kramdown
-highlighter: rouge
 
 # Paginate
 paginate: 10
@@ -62,4 +72,4 @@ paginate: 10
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+exclude: [Gemfile, Gemfile.lock, README.md, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
